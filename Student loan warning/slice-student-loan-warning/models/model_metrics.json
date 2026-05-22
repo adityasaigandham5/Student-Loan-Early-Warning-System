@@ -1,0 +1,52 @@
+{
+  "features": [
+    "age",
+    "gender_enc",
+    "course_enc",
+    "tier_enc",
+    "gpa",
+    "trend_enc",
+    "loan_amt",
+    "interest_rate",
+    "tenure_mo",
+    "moratorium_mo",
+    "emi",
+    "employed",
+    "salary_mo",
+    "emi_income",
+    "months_since_disb",
+    "missed_pmts_past",
+    "payment_delay_avg",
+    "auto_debit",
+    "co_borrower",
+    "family_income_mo",
+    "family_support",
+    "loan_burden",
+    "is_early_vintage",
+    "payment_score",
+    "academic_risk",
+    "employment_stress",
+    "support_score",
+    "income_adequacy"
+  ],
+  "horizons": {
+    "default_30d": {
+      "auc_roc": 0.7326,
+      "auc_pr": 0.2066,
+      "default_rate": 0.0954,
+      "label": "30-Day"
+    },
+    "default_60d": {
+      "auc_roc": 0.7601,
+      "auc_pr": 0.4149,
+      "default_rate": 0.203,
+      "label": "60-Day"
+    },
+    "default_90d": {
+      "auc_roc": 0.79,
+      "auc_pr": 0.6008,
+      "default_rate": 0.313,
+      "label": "90-Day"
+    }
+  }
+}
